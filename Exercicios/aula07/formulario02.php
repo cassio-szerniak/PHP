@@ -17,7 +17,7 @@
 <body>
 <div>
     <?php
-        
+        $nomee = "roberto";
         /*Y maiúsculo mostra todos os dígitos do ano, minúsculo mostra apenas 2 últimos*/
         $nome =  isset($_GET["nome"])?$_GET["nome"]:"nãoinformado";
         $ano = isset($_GET["ano"])?$_GET["ano"]:"0";
