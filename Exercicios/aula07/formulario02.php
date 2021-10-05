@@ -17,11 +17,13 @@
 <body>
 <div>
     <?php
-        $nomee = "roberto";
+        
         /*Y maiúsculo mostra todos os dígitos do ano, minúsculo mostra apenas 2 últimos*/
-        $nome =  isset($_GET["nome"])?$_GET["nome"]:"nãoinformado";
-        $ano = isset($_GET["ano"])?$_GET["ano"]:"0";
-        $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"invalido";
+        $nome =  isset($_GET["nome"])?$_GET["nome"]:"não informado";
+
+          $ano = isset($_GET["ano"])?$_GET["ano"]:"2000";
+
+        $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"não informado";
         $idade = date("Y") - $ano;
         echo "Seu nome é $nome, você tem $idade anos e seu sexo é $sexo. </br> </br>";
         
