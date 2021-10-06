@@ -10,7 +10,7 @@
 <body>
     <div>
         <?php
-        /*para ser considerado indêntico em PHP (===) é preciso ser igual e do mesmo tipo*/
+        /*para ser considerado indêntico em PHP (===) é preciso ser igual E do mesmo tipo*/
             $a = 3;
             $b = "3";
             $r = ($a === $b)?"sim":"não";

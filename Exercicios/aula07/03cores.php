@@ -22,8 +22,10 @@
         <?php
         echo "<span class='texto'>$texto</span>";
         ?>
+        
         <p><a href="03exercicio.html"><button>Voltar</button></a></p>
+
     </div>
-    
 </body>
+
 </html>
