@@ -7,46 +7,50 @@
 </head>
     <body>
         <div>
-            <form method="GET" action="switchCase02.php">                
+            <form method="GET" action="switchCaseRegioes.php">                
+            
+                Estado: <select name="est" id="estado">
+                    <optgroup label="Norte">
+                        <option selected value="7">Amazonas</option>
+                        <option value="1">Roraima</option>
+                        <option value="2">Amapá</option>
+                        <option value="3">Pará</option>
+                        <option value="4">Tocantins</option>
+                        <option value="5">Rondônia</option>
+                        <option value="6">Acre</option>
+                    </optgroup>
+                    <optgroup label="Nordeste" >
+                        <option value="8">Maranhão</option>
+                        <option value="9">Piauí</option>
+                        <option value="10">Ceará</option>
+                        <option value="11">Rio Grande do Norte</option>
+                        <option value="12">Pernambuco</option>
+                        <option value="13">Paraíba</option>
+                        <option value="14">Sergipe</option>
+                        <option value="15">Alagoas</option>
+                        <option value="16">Bahia</option>
+                    </optgroup>
+                    <optgroup label="Centro-Oeste">
+                        <option value="GO">Goiás</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+                </select>
+
+                <input type="submit" value="Confirma">
+
             </form>
-            Estado: <select name="est" id="estado">
-                <optgroup label="Norte">
-                    <option selected value="AM">Amazonas</option>
-                    <option value="RR">Roraima</option>
-                    <option value="AP">Amapá</option>
-                    <option value="PA">Pará</option>
-                    <option value="TO">Tocantins</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="AC">Acre</option>
-                </optgroup>
-                <optgroup label="Nordeste">
-                    <option value="MA">Maranhão</option>
-                    <option value="PI">Piauí</option>
-                    <option value="CE">Ceará</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="BA">Bahia</option>
-                </optgroup>
-                <optgroup label="Centro-Oeste">
-                    <option value="GO">Goiás</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MT">Mato Grosso</option>
-                </optgroup>
-                <optgroup label="Sudeste">
-                    <option value="SP">São Paulo</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="ES">Espirito Santo</option>
-                </optgroup>
-                <optgroup label="Sul">
-                    <option value="PR">Paraná</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="SC">Santa Catarina</option>
-                </optgroup>
-            </select>
         </div>
     </body>
 </html>

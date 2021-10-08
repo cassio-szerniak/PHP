@@ -9,20 +9,28 @@
     <div>
         <?php
             
-            $d = $_GET["ds"];
+            $regiao = $_GET["est"];
 
-            switch ($d) {
+            switch ($regiao) {
               case 1:
               case 2:
               case 3:
               case 4:
               case 5:
-                echo "Levanta e vai estudar.";
-                break;
               case 6:
               case 7:
-                echo "Descanse pequeno gafanhoto.";
+                echo "Região Norte";
                 break;
+              case 8:
+              case 9:
+              case 10:
+              case 11:
+              case 12:
+              case 13:
+              case 14:
+              case 15:
+              case 16:
+                echo "Região Norte";
               default:
                 echo "Dia da semana inválido.";
               }
