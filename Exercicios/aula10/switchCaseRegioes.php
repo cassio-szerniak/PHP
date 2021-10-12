@@ -30,9 +30,26 @@
               case 14:
               case 15:
               case 16:
-                echo "Região Norte";
+                echo "Região Nordeste";
+                break;
+              case 17:
+              case 18:
+              case 19:
+                echo "Região Centro-Oeste";
+                break;
+              case 20:
+              case 21:
+              case 22:
+              case 23:
+                echo "Região Sudeste";
+                break;
+              case 24:
+              case 25:
+              case 26:
+                echo "Região Sul";
+                break;
               default:
-                echo "Dia da semana inválido.";
+                echo "Inválido.";
               }
         ?>
 
