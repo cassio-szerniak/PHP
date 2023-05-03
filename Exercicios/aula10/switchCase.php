@@ -23,10 +23,11 @@
                 break;
               case 3:
                 //sqrt($num);
+                //$num ^ (1/2);
                 $result = $num**0.5;
                 break;
             }
-            echo "Resultado: $result";
+            echo "Resultado: <span class='foco'>$result</span>";
         ?>
         <a href="switchCase.html"><button style="float: right;">Voltar</button></a>
     </div>

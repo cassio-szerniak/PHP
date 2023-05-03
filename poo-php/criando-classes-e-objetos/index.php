@@ -22,16 +22,17 @@
         $caneta1 -> cor = "Azul";
         $caneta1 -> ponta = 0.5;
         $caneta1 -> tampada = true;
+        $caneta1 -> carga = true;
 
         //Abaixo usamos as funções var_dump e print_r,
         //para mostrar os atributos na tela.
         //Essas funções mostram o tipo do atributo, string, boolean, etc.
 
-        /*
-        *var_dump($caneta1);
-        *echo ('<br> <br>');
-        *print_r($caneta1);
-        */
+        
+        var_dump($caneta1);
+        echo ('<br> <br>');
+        print_r($caneta1);
+        
 
         //Para chamar uma função ou método:
 
