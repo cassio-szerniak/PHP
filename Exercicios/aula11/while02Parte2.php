@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <meta charset="UTF-8" />
+    <title>Curso de PHP - CursoemVideo.com</title>
 </head>
 
 <body>
     <div>
         <form method="get" action="while02Parte1.php">
             <?php
-                $c = 0;
-                $num = $_GET["v$c"];
-                while ($c <= )
-                echo "$"
+                $c = 1;
+                while ($c <= 5){
+                    $num = $_GET["v$c"];
+                    echo "Valor $c: $num </br>";
+                    $c++;
+                }
             ?>
+            <button><a href="while02Parte1.php">Voltar</a></button> 
         </form>
     </div>
 </body>
-
 </html>
